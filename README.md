@@ -8,7 +8,7 @@ The objective of this project is to analyze sales data to uncover key business i
 - Detect seasonal trends in sales and profit.
 - Identify high-performing regions and states for strategic focus.
 - Recommend data-driven strategies for business growth.
-- 
+
 This analysis simulates a real-world business scenario, where understanding customer behavior and sales dynamics is crucial for data-driven decision-making.
 
 ## Dataset information
