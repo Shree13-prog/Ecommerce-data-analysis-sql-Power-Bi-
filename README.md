@@ -11,17 +11,6 @@ The objective of this project is to analyze sales data to uncover key business i
 
 This analysis simulates a real-world business scenario, where understanding customer behavior and sales dynamics is crucial for data-driven decision-making.
 
-## Dataset information
-This dataset is a simulated retail sales record capturing detailed transactions across products, customers, regions, and sales metrics, reflecting real-world business operations for sales analysis and dashboarding.
-
-Column Overview:
-
-- Order & Ship Dates: Transaction and shipping dates.
-- Customer Info: IDs, names, segments (Consumer, Corporate, Home Office), and location (City, State, Region, Country).
-- Product Details: IDs, categories (Office Supplies, Technology, Furniture), sub-categories, and product names.
-- Sales Metrics: Sales amount, quantity sold, profit, and return status.
-- Logistics & Payment: Shipping mode and payment method (Cards, Online, COD).
-
 ## Key questions 
 1. What are the preferences and distribution of payment modes among customers?
 2. How are sales distributed across different customer segments?
@@ -33,66 +22,88 @@ Column Overview:
 8. Which product categories generate the highest sales, and how do they compare against each other?
 
 ## Tools used 
-- Excel: Data cleaning, exploration, and initial analysis.
+- Excel: Data cleaning.
 - SQL: Data querying and manipulation for deeper insights.
 - Power BI: Interactive data visualization and dashboard creation.
 
 ## Analysis and insights
 
-1. Payment Mode Preferences
-- Cash on Delivery (COD) accounts for 43% of total sales — the most used payment method.
-- Online payments are the second most preferred at 35%, followed by Card payments at 22%.
-- COD dominance could be region or product-specific, suggesting trust or access issues with digital payments.
+🔹 Overall KPIs
+- Total Sales: $1.57 million
+- Total Profit: $175,000
+- Total Quantity Sold: 22,000 units
+- Average Order Value: $521
 
-2. Customer Segment Distribution
-- The Consumer segment leads with 48% of sales.
-- Corporate customers make up 33%, and Home Office contributes 19%.
-- Indicates a B2C-heavy model, but growing B2B potential.
+🔹 Sales by Region
+- West contributes the most with 33% (~$518K).
+- East follows with 29% (~$455K).
+- Central accounts for 22% (~$345K).
+- South contributes the least at 16% (~$252K).
 
-3. Regional Sales Performance
-- East (29%) and West (33%) are the top-performing regions.
-- South (16%) and Central (22%) underperform in comparison.
-- Indicates potential gap in market reach, brand visibility, or logistics in these regions.
+Insight: West and East are strong regions. South and Central need more focused efforts.
 
-4. Monthly Sales Trend (2019 vs. 2020)
-- Both years show a seasonal spike from September to December.
-- 2020 outperformed 2019 in most months.
-- Early-year dips are observed in both years, likely due to cyclical or external factors.
+🔹 Sales by Payment Mode
+- COD (Cash on Delivery) is used for 45% of orders (~$706K).
+- Online payments make up 35% (~$550K).
+- Card payments are used in 22% (~$345K).
 
-5. Monthly Profit Trend (2019 vs. 2020)
-- Profits mirror sales trends — higher towards the year's end.
-- 2020 shows higher and more stable profits than 2019.
-- Indicates operational improvements and better inventory/sales strategies.
+Insight: COD is dominant. Encouraging digital payments could reduce operational burden.
 
-6. Shipping Method Preferences
-- Standard Class shipping dominates with $0.23 million in sales.
-- Other methods: Second Class ($0.11M), First Class ($0.08M), Same Day ($0.03M).
-- Reflects that customers prioritize affordability over speed.
+🔹 Sales by Customer Segment
+- Consumer segment drives 48% of sales.
+- Corporate customers contribute 33%.
+- Home Office accounts for 19%.
 
-7. Top-Selling Sub-Categories
-- Phones ($0.20M), Chairs ($0.18M), and Binders ($0.17M) are top sub-categories.
-- Shows strong demand in technology and essential office furniture.
+Insight: The business is B2C heavy. There’s potential to grow B2B sales.
 
-8. Sales by Category
-- Office Supplies lead with $0.64M, followed by Technology ($0.47M) and Furniture ($0.45M).
-- Highlights Office Supplies as the core sales driver.
+🔹 Monthly Sales Trends (2019 vs 2020)
+- December 2020 saw the highest sales, exceeding $200K.
+- Both years show seasonal dips in Jan–Mar and July–August.
 
-9. State-Level Sales and Profit Performance
-- The top 5 states by both sales and profit: California, New York, Texas, Washington, and Pennsylvania.
-- These regions represent high customer density and purchasing power.
+Insight: Year-end sales spike shows strong festive performance. Early and mid-year months could use better promotion.
+
+🔹 Monthly Profit Trends
+- Profits follow a similar trend as sales, peaking in Q4.
+- 2020 profits were higher and more stable than 2019.
+
+Insight: Improved strategies in 2020 boosted profitability.
+
+🔹 Sales by Shipping Method
+- Standard Class dominates with $338K in sales.
+- Second Class has $112K, First Class has $82K, and Same Day only $30K.
+
+Insight: Customers prefer cost-effective shipping. Faster options could be upsold during peak seasons.
+
+🔹 State-Level Sales Performance
+- California leads with $335K in sales.
+- Followed by New York ($187K) and Texas ($116K).
+
+Insight: These top states are high-priority markets. States like Michigan and North Carolina show room for growth.
+
+🔹 Top Sub-Categories
+- Phones top the list with $197K in sales.
+- Chairs follow with $182K, and Binders with $175K.
+
+Insight: Technology and Office Furniture are the best-selling areas.
+
+🔹 Sales by Product Category
+- Technology leads with $471K in sales.
+- Furniture is close at $452K.
+- Office Supplies, despite some strong sub-categories, trail at $64K.
+
+Insight: Continue focusing on tech and furniture. Office supplies may need a sales push.
 
 ## Recommendations
-1. Promote digital payments through discounts, cashback, and user education to increase online payment adoption.
-2. Target B2B segments (Corporate and Home Office) with bulk pricing, subscriptions, and custom solutions.
-3. Invest in marketing, logistics, and regional partnerships to expand presence in South and West regions.
-4. Prepare for Q4 holiday peaks by scaling inventory, staffing, and leveraging 2020 sales data for top SKUs.
-5. Optimize profitability by focusing on high-margin products and improving supply chain stability.
-6. Enhance shipping strategies by maintaining cost-efficient Standard Class, upselling express options, and offering delivery incentives.
-7. Grow key product categories (Phones, Chairs, Binders, Office Supplies, Technology, Furniture) through bundling, loyalty programs, and localized state-focused investments, including new fulfillment centers in top states.
+- Promote online and card payments through discounts and cashbacks to reduce COD dependency.
+- Target B2B segments (Corporate & Home Office) with offers like bulk pricing and subscription models.
+- Expand marketing and logistics efforts in South and Central regions.
+- Prepare for Q4 spikes by optimizing inventory and marketing strategies starting September.
+- Offer incentives for faster shipping options for high-value or loyal customers.
+- Boost sales of best-sellers like Phones, Chairs, and Binders through bundles or cross-sells.
+- Open new fulfillment hubs or campaigns in high-performing states like California, New York, and Texas.
 
 ## Business impact 
-Understanding payment mode preferences helps tailor checkout options to increase conversion rates and reduce cart abandonment. Identifying high-performing customer segments enables targeted marketing campaigns that maximize customer lifetime value. Regional sales analysis highlights opportunities for expanding market reach and optimizing supply chain logistics in underperforming areas. Recognizing seasonal sales and profit trends allows for smarter inventory management and promotional planning during peak periods. 
-Insights into shipping preferences inform cost-effective logistics strategies that balance speed and customer satisfaction. Finally, knowing the best-selling product categories and sub-categories drives focused product development and inventory investment, boosting overall profitability.
+Understanding which payment methods customers prefer helps make the checkout process smoother, which can increase sales and reduce abandoned carts. Knowing which customer segments bring in the most revenue allows for more focused and effective marketing. Analyzing regional sales shows where the business can grow and improve logistics in weaker areas. Spotting seasonal trends in sales and profit helps with better inventory planning and promotions during busy times. Shipping insights guide cost-effective delivery options that keep customers happy. And finally, knowing which products sell best helps in planning inventory and creating products that boost profits.
 
 ## Conclusion
 This analysis provides clear insights into customer behavior, regional performance, and product trends, enabling data-driven decision-making. Targeted strategies in payment options, segmentation, and regional focus can drive growth and profitability. Seasonal and shipping insights help optimize operations and enhance customer satisfaction. Implementing these recommendations will strengthen market position and improve overall business performance.
