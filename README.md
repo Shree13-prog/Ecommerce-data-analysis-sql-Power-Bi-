@@ -28,13 +28,13 @@ This analysis simulates a real-world business scenario, where understanding cust
 
 ## Analysis and insights
 
-🔹 Overall KPIs
+1. Overall KPIs
 - Total Sales: $1.57 million
 - Total Profit: $175,000
 - Total Quantity Sold: 22,000 units
 - Average Order Value: $521
 
-🔹 Sales by Region
+2. Sales by Region
 - West contributes the most with 33% (~$518K).
 - East follows with 29% (~$455K).
 - Central accounts for 22% (~$345K).
@@ -42,51 +42,51 @@ This analysis simulates a real-world business scenario, where understanding cust
 
 Insight: West and East are strong regions. South and Central need more focused efforts.
 
-🔹 Sales by Payment Mode
+3. Sales by Payment Mode
 - COD (Cash on Delivery) is used for 45% of orders (~$706K).
 - Online payments make up 35% (~$550K).
 - Card payments are used in 22% (~$345K).
 
 Insight: COD is dominant. Encouraging digital payments could reduce operational burden.
 
-🔹 Sales by Customer Segment
+4. Sales by Customer Segment
 - Consumer segment drives 48% of sales.
 - Corporate customers contribute 33%.
 - Home Office accounts for 19%.
 
 Insight: The business is B2C heavy. There’s potential to grow B2B sales.
 
-🔹 Monthly Sales Trends (2019 vs 2020)
+5. Monthly Sales Trends (2019 vs 2020)
 - December 2020 saw the highest sales, exceeding $200K.
 - Both years show seasonal dips in Jan–Mar and July–August.
 
 Insight: Year-end sales spike shows strong festive performance. Early and mid-year months could use better promotion.
 
-🔹 Monthly Profit Trends
+6. Monthly Profit Trends
 - Profits follow a similar trend as sales, peaking in Q4.
 - 2020 profits were higher and more stable than 2019.
 
 Insight: Improved strategies in 2020 boosted profitability.
 
-🔹 Sales by Shipping Method
+7. Sales by Shipping Method
 - Standard Class dominates with $338K in sales.
 - Second Class has $112K, First Class has $82K, and Same Day only $30K.
 
 Insight: Customers prefer cost-effective shipping. Faster options could be upsold during peak seasons.
 
-🔹 State-Level Sales Performance
+8. State-Level Sales Performance
 - California leads with $335K in sales.
 - Followed by New York ($187K) and Texas ($116K).
 
 Insight: These top states are high-priority markets. States like Michigan and North Carolina show room for growth.
 
-🔹 Top Sub-Categories
+9. Top Sub-Categories
 - Phones top the list with $197K in sales.
 - Chairs follow with $182K, and Binders with $175K.
 
 Insight: Technology and Office Furniture are the best-selling areas.
 
-🔹 Sales by Product Category
+10. Sales by Product Category
 - Technology leads with $471K in sales.
 - Furniture is close at $452K.
 - Office Supplies, despite some strong sub-categories, trail at $64K.
