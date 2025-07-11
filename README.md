@@ -1,4 +1,4 @@
-# Superstore-data-analysis-sql-Power-Bi-
+# Superstore-data-analysis
 
 ## Objective 
 The objective of this project is to analyze sales data to uncover key business insights and identify actionable recommendations that can improve overall sales performance, customer experience, and operational efficiency. Through interactive visual exploration and detailed segmentation, the goal is to:
